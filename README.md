@@ -2,10 +2,6 @@
 
 An open dataset to add transparency to the food system from the food brands, farms, and ranches from [goodtaste.co](https://goodtaste.co).
 
-## Database Schema
-
-Our database schema is documented in [SCHEMA.md](./SCHEMA.md). This file provides a detailed overview of all tables, columns, and relationships in our database.
-
 ## Automated Data Updates
 
 We have implemented an automated system to keep our public data snapshot up-to-date:
