@@ -1,5 +1,6 @@
 const { createClient } = require('@supabase/supabase-js');
 const fs = require('fs');
+const path = require('path');
 
 // Initialize Supabase client
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
@@ -13,15 +14,16 @@ async function fetchAndSaveData(functionName, fileName) {
     process.exit(1);
   }
 
-  fs.writeFileSync(fileName, JSON.stringify(data, null, 2));
-  console.log(`Data successfully written to ${fileName}`);
+  const filePath = path.join('public-data', fileName);
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+  console.log(`Data successfully written to ${filePath}`);
 }
 
 // Main function to call each export function
 async function run() {
-  await fetchAndSaveData('export_open_brands_json', 'open_brands.json');
-  await fetchAndSaveData('export_open_producers_json', 'open_producers.json');
-  await fetchAndSaveData('export_open_certifications_json', 'open_certifications.json');
+  await fetchAndSaveData('export_open_brands_json', 'brands.json');
+  await fetchAndSaveData('export_open_producers_json', 'producers.json');
+  await fetchAndSaveData('export_open_certifications_json', 'certifications.json');
 }
 
 run();

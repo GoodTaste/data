@@ -10,7 +10,7 @@ Our database schema is documented in [SCHEMA.md](./SCHEMA.md). This file provide
 
 We have implemented an automated system to keep our public data snapshot up-to-date:
 - Changes in our Supabase database trigger a webhook to our GitHub repository.
-- A GitHub Action then fetches the latest data and updates the public snapshot.
+- Once a day, a GitHub Action then fetches the latest data and updates the files in the [/public-data](/public-data/) directory.
 - This ensures that the data in this repository is always current and reflects the latest information in our database.
 
 ## Licensing
