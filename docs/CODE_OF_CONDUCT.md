@@ -45,7 +45,7 @@ Additionally, community organizers are available to help community members engag
 
 ## Contact Information
 
-Email hello [at] meaningfulbites [dot] com
+Email hello [at] goodtaste [dot] co
 
 ## Acknowledgments
 
