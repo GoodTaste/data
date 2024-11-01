@@ -21,7 +21,7 @@ jobs:
         run: npm cache clean --force
 
       - name: Install dependencies
-        run: npm install axios supabase-js
+        run: npm install axios@1.4.0 supabase-js@2.12.0
 
       - name: Fetch data from Supabase
         env:
