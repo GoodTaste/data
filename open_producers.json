@@ -1,0 +1,300 @@
+[
+  [
+    {
+      "producer_id": "03094db7-9e4c-46f0-bbb9-b00d8456b854",
+      "country_name": "United States",
+      "producer_url": "https://www.nectarhillsfarm.com/",
+      "producer_name": "Nectar Hills Farm",
+      "producer_category_names": [
+        "Fruits & Vegetables"
+      ],
+      "producer_location_simple": "Schenevus, New York",
+      "certification_level_names": [
+        null
+      ],
+      "certification_standard_names": [
+        "Demeter Biodynamic"
+      ]
+    },
+    {
+      "producer_id": "41dd0305-792e-4803-8669-01aa8092faab",
+      "country_name": "United States",
+      "producer_url": "https://carltonfarms.net",
+      "producer_name": "Carlton Farms",
+      "producer_category_names": [
+        "Fruits & Vegetables",
+        "Grain",
+        "Hemp",
+        "Legumes",
+        "Livestock"
+      ],
+      "producer_location_simple": "Montrose, Pennsylvania",
+      "certification_level_names": [
+        null
+      ],
+      "certification_standard_names": [
+        "Demeter Biodynamic"
+      ]
+    },
+    {
+      "producer_id": "4a513b71-d261-4196-9035-2506f2d6865c",
+      "country_name": "United States",
+      "producer_url": "https://www.krehereggs.com/",
+      "producer_name": "Kreher Family Farms",
+      "producer_category_names": [
+        "Fruits & Vegetables",
+        "Grain"
+      ],
+      "producer_location_simple": "Clarence, New York",
+      "certification_level_names": [
+        null
+      ],
+      "certification_standard_names": [
+        "Certified Regenerative by AGW"
+      ]
+    },
+    {
+      "producer_id": "5e4932f0-484d-4ef3-b710-db49a7dff704",
+      "country_name": "United States",
+      "producer_url": "https://www.sowaheart.com/",
+      "producer_name": "Sow a Heart Farm",
+      "producer_category_names": [
+        "Fruits & Vegetables",
+        "Legumes"
+      ],
+      "producer_location_simple": "Fillmore, California",
+      "certification_level_names": [
+        "ROC Silver"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "producer_id": "667658d3-e092-4a25-a6a7-fd754f070a46",
+      "country_name": "United States",
+      "producer_url": "https://parkfarmingorganics.com/",
+      "producer_name": "Park Farming Organics",
+      "producer_category_names": [
+        "Fruits & Vegetables",
+        "Grain"
+      ],
+      "producer_location_simple": "Meridian, California",
+      "certification_level_names": [
+        "ROC Silver",
+        null
+      ],
+      "certification_standard_names": [
+        "Certified Regenerative by AGW",
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "producer_id": "6bb5bbbf-947d-40e0-8922-6d7d41146c3a",
+      "country_name": "United States",
+      "producer_url": "https://farm.hawthornevalley.org/",
+      "producer_name": "Hawthorne Valley",
+      "producer_category_names": [
+        "Fruits & Vegetables",
+        "Grain",
+        "Legumes",
+        "Livestock"
+      ],
+      "producer_location_simple": "Ghent, New York",
+      "certification_level_names": [
+        null
+      ],
+      "certification_standard_names": [
+        "Demeter Biodynamic"
+      ]
+    },
+    {
+      "producer_id": "716d7772-015f-42d0-8cb6-ee506f7e7081",
+      "country_name": "United States",
+      "producer_url": "https://www.aframefarm.com",
+      "producer_name": "A-Frame Farm",
+      "producer_category_names": [
+        "Grain",
+        "Livestock"
+      ],
+      "producer_location_simple": "Madison, Minnesota",
+      "certification_level_names": [
+        "ROC Silver"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "producer_id": "82081bf2-7f16-4762-8842-3cd00dd322f5",
+      "country_name": "Canada",
+      "producer_url": "https://thehomesteadfarm.ca/",
+      "producer_name": "The Homestead Farm",
+      "producer_category_names": [
+        "Fruits & Vegetables",
+        "Grain",
+        "Livestock"
+      ],
+      "producer_location_simple": "Goodfare, Alberta",
+      "certification_level_names": [
+        null
+      ],
+      "certification_standard_names": [
+        "Certified Regenerative by AGW"
+      ]
+    },
+    {
+      "producer_id": "843f014d-5c9a-42e4-ad04-a1408405739f",
+      "country_name": "United States",
+      "producer_url": "https://www.troonvineyard.com/",
+      "producer_name": "Troon Vineyard",
+      "producer_category_names": [
+        "Vineyard"
+      ],
+      "producer_location_simple": "Grants Pass, Oregon",
+      "certification_level_names": [
+        "ROC Gold",
+        null
+      ],
+      "certification_standard_names": [
+        "Demeter Biodynamic",
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "producer_id": "8d0b562b-8601-4f4b-98fc-356eff823bb6",
+      "country_name": "United States",
+      "producer_url": "https://www.redrangefarm.com/",
+      "producer_name": "Redrange Farm",
+      "producer_category_names": [
+        "Fruits & Vegetables",
+        "Grain",
+        "Livestock"
+      ],
+      "producer_location_simple": "New Salem, Pennsylvania",
+      "certification_level_names": [
+        null
+      ],
+      "certification_standard_names": [
+        "Demeter Biodynamic"
+      ]
+    },
+    {
+      "producer_id": "901acf7c-e943-4a2b-93b3-8decb69924e5",
+      "country_name": "United States",
+      "producer_url": "https://www.poconoorganics.com/",
+      "producer_name": "Pocono Organics",
+      "producer_category_names": [
+        "Fruits & Vegetables",
+        "Hemp",
+        "Livestock"
+      ],
+      "producer_location_simple": "Long Pond, Pennsylvania",
+      "certification_level_names": [
+        "ROC Bronze"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "producer_id": "aac292f3-0ca9-4aae-b3dc-392472976335",
+      "country_name": "United States",
+      "producer_url": "https://www.oldkingfarm.com/",
+      "producer_name": "Old King Farm",
+      "producer_category_names": [
+        "Grain",
+        "Hemp"
+      ],
+      "producer_location_simple": "Benson, Vermont",
+      "certification_level_names": [
+        null
+      ],
+      "certification_standard_names": [
+        "Demeter Biodynamic"
+      ]
+    },
+    {
+      "producer_id": "b192cb9a-b2d9-4504-a786-dadda77cdcdb",
+      "country_name": "United States",
+      "producer_url": "https://newleaftreesyrups.com/",
+      "producer_name": "The Forest Farmers",
+      "producer_category_names": [
+        "Syrup"
+      ],
+      "producer_location_simple": "Lyon Mt, New York",
+      "certification_level_names": [
+        "ROC Gold"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "producer_id": "c27bb743-cb54-4bc9-a775-27594b94edcc",
+      "country_name": "United States",
+      "producer_url": "https://tablascreek.com/",
+      "producer_name": "Tablas Creek Vineyard",
+      "producer_category_names": [
+        "Vineyard"
+      ],
+      "producer_location_simple": "Paso Robles, California",
+      "certification_level_names": [
+        "ROC Gold"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "producer_id": "f43495ac-730f-422b-b708-d401e5b1c55d",
+      "country_name": "United States",
+      "producer_url": "https://pleasantgrovefarms.com/",
+      "producer_name": "Pleasant Grove Farm",
+      "producer_category_names": [
+        "Fruits & Vegetables",
+        "Grain"
+      ],
+      "producer_location_simple": "Pleasant Grove, California",
+      "certification_level_names": [
+        null
+      ],
+      "certification_standard_names": [
+        "Certified Regenerative by AGW"
+      ]
+    },
+    {
+      "producer_id": "f823b6bc-76f9-4475-89e1-44e7ced44599",
+      "country_name": "United States",
+      "producer_url": "https://www.meadowlarkhearth.org/",
+      "producer_name": "Meadowland Hearth",
+      "producer_category_names": [
+        "Seed"
+      ],
+      "producer_location_simple": "Scottsbluff, Nebraska",
+      "certification_level_names": [
+        null
+      ],
+      "certification_standard_names": [
+        "Demeter Biodynamic",
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "producer_id": "fd129841-c765-4e1b-af4d-1fc60a6de6b5",
+      "country_name": "United States",
+      "producer_url": "https://breathedeepfarm.com/",
+      "producer_name": "Breathe Deep Farm",
+      "producer_category_names": [
+        "Grain"
+      ],
+      "producer_location_simple": "Claverack, New York",
+      "certification_level_names": [
+        "ROC Silver"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    }
+  ]
+]
