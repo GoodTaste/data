@@ -48,10 +48,16 @@ async function run() {
     fetchAndSaveData('export_open_certifications_json', 'certifications.json'),
   ]);
 
-  // If no updates were made, exit with code 0 (success)
-  if (!updates.includes(true)) {
+  // Check if any updates were made
+  const dataChanged = updates.includes(true);
+  
+  // Set output for GitHub Actions
+  console.log(`::set-output name=DATA_CHANGED::${dataChanged}`);
+
+  // Exit successfully if no updates were made
+  if (!dataChanged) {
     console.log("No data changes detected. Exiting without updates.");
-    process.exit(0); // Exits gracefully with success if no updates
+    process.exit(0);
   }
 }
 
