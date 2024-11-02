@@ -5,7 +5,22 @@ const path = require('path');
 // Initialize Supabase client
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
-// Function to call a Supabase RPC and save to a file
+// Directory for output files
+const outputDir = path.join(__dirname, '..', 'public-data');
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir);
+}
+
+// Function to check if file content has changed
+function hasDataChanged(filePath, newData) {
+  if (!fs.existsSync(filePath)) {
+    return true; // File doesn't exist, so data has "changed"
+  }
+  const existingData = fs.readFileSync(filePath, 'utf8');
+  return existingData !== JSON.stringify(newData, null, 2);
+}
+
+// Function to call a Supabase RPC, save data if changed, and return if updated
 async function fetchAndSaveData(functionName, fileName) {
   const { data, error } = await supabase.rpc(functionName);
 
@@ -14,16 +29,30 @@ async function fetchAndSaveData(functionName, fileName) {
     process.exit(1);
   }
 
-  const filePath = path.join('public-data', fileName);
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-  console.log(`Data successfully written to ${filePath}`);
+  const filePath = path.join(outputDir, fileName);
+  if (hasDataChanged(filePath, data)) {
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+    console.log(`Data successfully written to ${filePath}`);
+    return true; // Indicates data was updated
+  } else {
+    console.log(`No changes in data for ${fileName}. Skipping update.`);
+    return false; // No update needed
+  }
 }
 
-// Main function to call each export function
+// Main function to fetch and save data
 async function run() {
-  await fetchAndSaveData('export_open_brands_json', 'brands.json');
-  await fetchAndSaveData('export_open_producers_json', 'producers.json');
-  await fetchAndSaveData('export_open_certifications_json', 'certifications.json');
+  const updates = await Promise.all([
+    fetchAndSaveData('export_open_brands_json', 'brands.json'),
+    fetchAndSaveData('export_open_producers_json', 'producers.json'),
+    fetchAndSaveData('export_open_certifications_json', 'certifications.json'),
+  ]);
+
+  // If no updates were made, exit with code 0 (success)
+  if (!updates.includes(true)) {
+    console.log("No data changes detected. Exiting without updates.");
+    process.exit(0); // Exits gracefully with success if no updates
+  }
 }
 
 run();
