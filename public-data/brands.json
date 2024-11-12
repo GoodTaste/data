@@ -1,6 +1,18 @@
 [
   [
     {
+      "url": "https://canyoncoffee.co/",
+      "name": "Canyon Coffee",
+      "tagline": "Single-origin organic coffee, roasted in LA",
+      "brand_id": "0512a783-b36f-4f39-aeef-80d252e06273",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
       "url": "https://www.alecsicecream.com/",
       "name": "Alec's Ice Cream",
       "tagline": "Regenerative organic A2 dairy ice cream",
@@ -14,12 +26,72 @@
       ]
     },
     {
+      "url": "https://starwalkerorganicfarms.com/",
+      "name": "StarWalker Organic Farms",
+      "tagline": "The first regenerative organic jerky",
+      "brand_id": "11d0688d-6d86-4c0c-9279-c01eef158abf",
+      "product_category_names": [
+        "Meat & Seafood"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.beardedbros.com/",
+      "name": "Bearded Brothers",
+      "tagline": "Handcrafrted organic snacks made in Austin",
+      "brand_id": "137b6d71-8005-4b17-8cb3-e4cd4b55733f",
+      "product_category_names": [
+        "Snacks"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://forecastcoffeecompany.com/",
+      "name": "Forecast Coffee Company",
+      "tagline": "Coffee that fights climate change",
+      "brand_id": "16ad3647-6403-452e-824a-ca33c0814bc9",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.drbronner.com/",
+      "name": "Dr. Bronner's",
+      "tagline": "Regenerative organic cocoa and coconut oil",
+      "brand_id": "1814db91-4960-4af4-92e8-1e076cfb1b5f",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
       "url": "https://www.kingarthurbaking.com/",
       "name": "King Arthur Baking",
       "tagline": "An employee-owned baking company",
       "brand_id": "1a4ab107-90b8-42fb-bd19-6c2a37657832",
       "product_category_names": [
         "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.recoupwellness.com/",
+      "name": "Recoup",
+      "tagline": "Organic hydration with a ginger kick",
+      "brand_id": "1a6055b6-3980-4082-956b-e951aa8e0176",
+      "product_category_names": [
+        "Beverage"
       ],
       "certification_standard_names": [
         "Regenerative Organic Certified"
@@ -38,6 +110,42 @@
       ]
     },
     {
+      "url": "https://www.bonterra.com/",
+      "name": "Bonterra Vineyards",
+      "tagline": "AmericaÕs #1 Organic Winery",
+      "brand_id": "1c22eafc-8222-4efd-aa7f-ea622099ea08",
+      "product_category_names": [
+        "Alcohol"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://canaanpalestine.com/",
+      "name": "Canaan Fair Trade",
+      "tagline": "Preserving Palestinian Heritage",
+      "brand_id": "1e19ab76-b7d8-458e-b184-75d62fba0ae3",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.winkler-hermaden.at/",
+      "name": "Weingut Winkler-Hermaden GmbH and Co KG",
+      "tagline": "Regenerative wine from Austria",
+      "brand_id": "1ea8d90c-0000-40eb-9911-6100cf464884",
+      "product_category_names": [
+        "Alcohol"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
       "url": "https://lovelilbucks.com/",
       "name": "Lil Bucks",
       "tagline": "Snacks from sprouted buckwheat",
@@ -45,6 +153,68 @@
       "product_category_names": [
         "Pseudo Grains",
         "Snacks"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://manitobaharvest.com/",
+      "name": "Manitoba Harvest Hemp Foods",
+      "tagline": "Hemp-based foods, oils, and supplements",
+      "brand_id": "2b198ce9-65b7-43b4-a71e-c8cc53cc46b4",
+      "product_category_names": [
+        "Pantry",
+        "Snacks",
+        "Vitamins & Supplements"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://babylifeorganics.com/",
+      "name": "Babylife Organics",
+      "tagline": "Better baby food from the ground up",
+      "brand_id": "2be35375-7d6b-4b55-9b7f-630d120564fa",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://wholesomesweet.com/",
+      "name": "Wholesome Sweeteners Inc.",
+      "tagline": "Organic sugar honey and agave",
+      "brand_id": "2dcb4755-b337-495f-a60a-3b3072bc6119",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.anytimespritz.com/",
+      "name": "Anytime Spritz",
+      "tagline": "Regenerative, grain-to-glass spirits",
+      "brand_id": "2df3b457-416e-487a-9d05-5ba2ca1da331",
+      "product_category_names": [
+        "Alcohol"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://lineacaffe.com/",
+      "name": "Linea Caffe",
+      "tagline": "100% organic and biodynamic coffee",
+      "brand_id": "2e1f6cda-36a1-4535-ace1-ce2b1a392d81",
+      "product_category_names": [
+        "Beverage"
       ],
       "certification_standard_names": [
         "Regenerative Organic Certified"
@@ -63,6 +233,30 @@
       ]
     },
     {
+      "url": "https://nealvineyards.com/",
+      "name": "Neal Family Vineyards",
+      "tagline": "Organic wines from a family-owned vineyard",
+      "brand_id": "2f700fb9-d00e-4462-b417-3a0941da0132",
+      "product_category_names": [
+        "Alcohol"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://guayaki.com/",
+      "name": "Guayaki",
+      "tagline": "Regenerative organic yerba mate",
+      "brand_id": "2f7f5cef-d571-4fd9-99ff-b2052b6f073f",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
       "url": "https://www.gruffgrains.com/",
       "name": "Gruff",
       "tagline": "Nutrient-dense ancient grains",
@@ -70,6 +264,90 @@
       "product_category_names": [
         "Grains",
         "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.starwest-botanicals.com/",
+      "name": "Starwest Botanicals",
+      "tagline": "Premium organic teas, herbs, and spices",
+      "brand_id": "3665ff7f-c5a5-4670-8fb2-d9a22a1836b1",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://alietgreen.com/",
+      "name": "Aliet Green",
+      "tagline": "Indonesia's fairtrade coconut sugar pioneer ",
+      "brand_id": "392fbf4a-ac44-42da-b4ac-2e8356ebf21b",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://utopiancoffee.com/",
+      "name": "Utopian Coffee Co LLC",
+      "tagline": "Regenerative coffee",
+      "brand_id": "3ba3afd6-c8c7-48ba-a663-2fb395333127",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://bellabarista.co.uk/",
+      "name": "Bella Barista",
+      "tagline": "Single-origin organic coffee",
+      "brand_id": "3c075a38-41bc-4ae2-beef-634b11f0605f",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://purelyelizabeth.com/",
+      "name": "Purely Elizabeth",
+      "tagline": "Helping you thrive on your wellness journey",
+      "brand_id": "3c6df425-fa3f-4246-a081-ea7d48f7965c",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://naturespath.com/",
+      "name": "Nature's Path",
+      "tagline": "Healthy, organic breakfast and snack foods",
+      "brand_id": "448b643b-f701-484a-948d-03be0b45a419",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.ardentmills.com/",
+      "name": "Ardent Mills",
+      "tagline": "Transforming how the world is nourished",
+      "brand_id": "4f9abf55-133d-4c5f-a9e4-f23cbd48b616",
+      "product_category_names": [
+        "Pseudo Grains"
       ],
       "certification_standard_names": [
         "Regenerative Organic Certified"
@@ -88,6 +366,54 @@
       ]
     },
     {
+      "url": "https://olddogranch.com/",
+      "name": "Old Dog Ranch Family Farm",
+      "tagline": "Organic walnuts & walnut butters",
+      "brand_id": "521b51e4-cfc3-47b3-841b-d22a06ba96f6",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.groundupgrain.com",
+      "name": "Ground Up",
+      "tagline": "Stone milled and locally sourced flour",
+      "brand_id": "54007329-0f35-4541-bdd6-a64f091b19c4",
+      "product_category_names": [
+        "Grains"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.pacificfoods.com/",
+      "name": "Pacific Foods",
+      "tagline": "Nourishing soups, broths, and more",
+      "brand_id": "62ee85fa-5ae1-4f8c-a839-e7c284c26eab",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://pacificbotanicals.com/",
+      "name": "Pacific Botanicals",
+      "tagline": "Botanicals from a farm in Southern Oregon",
+      "brand_id": "63768dbc-43e8-4d74-b1b8-45cc209cb8e6",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
       "url": "https://zacksmighty.com/",
       "name": "Zack's Mighty",
       "tagline": "Certified regenerative tortilla chips",
@@ -97,6 +423,66 @@
       ],
       "certification_standard_names": [
         "Certified Regenerative by AGW"
+      ]
+    },
+    {
+      "url": "https://mountainroseherbs.com/",
+      "name": "Mountain Rose Herbs",
+      "tagline": "Botanical offerings for everyday people",
+      "brand_id": "674ff12b-43de-412b-9dc7-4b555892d37d",
+      "product_category_names": [
+        "Alcohol"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.chinovalleyranchers.com/",
+      "name": "Chino Valley Ranchers",
+      "tagline": "Eggs that go above and beyond!",
+      "brand_id": "69e61cc2-7a88-4af1-b0aa-9fae350fa567",
+      "product_category_names": [
+        "Dairy & Eggs"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://kokorojapanstore.com/",
+      "name": "Kokora",
+      "tagline": "Nourishing herbal remedies",
+      "brand_id": "6d0981b4-2c9b-4d65-b6aa-5a02ac0693b5",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.herb-pharm.com/",
+      "name": "Herb Pharm",
+      "tagline": "Let Nature Be Your Ally",
+      "brand_id": "6db009b6-33b4-49ef-8de3-24b587e51908",
+      "product_category_names": [
+        "Vitamins & Supplements"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://latourangelle.com/",
+      "name": "La Tourangelle",
+      "tagline": "High-quality cooking oils",
+      "brand_id": "6eb8cca9-18a3-48a6-bbbd-eb0e5390ce20",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
       ]
     },
     {
@@ -124,12 +510,73 @@
       ]
     },
     {
+      "url": "https://charcutnuvo.com/",
+      "name": "Charcutnuvo",
+      "tagline": "Regenerative organic sausage and bratwurst",
+      "brand_id": "7188ff77-e1e6-48a0-806b-632bc701b96f",
+      "product_category_names": [
+        "Meat & Seafood"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://solsimple.com/",
+      "name": "Sol Simple",
+      "tagline": "Regenerative organic solar dried fruit snacks",
+      "brand_id": "7345cbe2-4280-4d6f-b6ac-ba9fa4eacaf5",
+      "product_category_names": [
+        "Fruits & Vegetables",
+        "Snacks"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
       "url": "https://philosopherfoods.com/",
       "name": "Philosopher Foods",
       "tagline": "Fermented nuts and sprouted nut butters",
       "brand_id": "788f14d3-1148-4850-923f-5fc408a3bee5",
       "product_category_names": [
         "Snacks"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.troonvineyard.com/",
+      "name": "Troon Vineyard",
+      "tagline": "Natural wines from Oregon's Applegate Valley",
+      "brand_id": "869cf90b-47b5-411f-b910-f3e1cb059124",
+      "product_category_names": [
+        "Alcohol"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://navitasorganics.com/",
+      "name": "Navitas Organics",
+      "tagline": "Superfoods with purpose",
+      "brand_id": "884fff2a-68c3-4048-9e54-00dea79f21e3",
+      "product_category_names": [
+        "Vitamins & Supplements"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.villacreek.com/",
+      "name": "MAHA Estate",
+      "tagline": "Vibrant soil = vibrant wine",
+      "brand_id": "8856a67e-e0c7-4ff8-9f92-676059901aa8",
+      "product_category_names": [
+        "Alcohol"
       ],
       "certification_standard_names": [
         "Regenerative Organic Certified"
@@ -149,6 +596,54 @@
       ]
     },
     {
+      "url": "https://www.floridacrystals.com/",
+      "name": "Florida Crystals",
+      "tagline": "Taste Honest to Goodness Sugar",
+      "brand_id": "8ed52496-5642-4be2-b3ee-876c4dcd4900",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.independencecoffee.com/",
+      "name": "Independence Coffee Company",
+      "tagline": "Local Texas coffee roasters",
+      "brand_id": "8ee900df-72b0-4dbf-b4c6-d47f44ac5dc9",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.gunbun.com/",
+      "name": "Gundlach Bundschu Winery",
+      "tagline": "CA's oldest family-owned winery",
+      "brand_id": "915b5c30-347c-4e4d-b693-c0f613db3c33",
+      "product_category_names": [
+        "Alcohol"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.groundworkcoffee.com/",
+      "name": "Groundwork Coffee",
+      "tagline": "Regenerative organic certified coffee",
+      "brand_id": "9546e97a-8f1a-4bb8-8ad7-918c421aca78",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
       "url": "https://lakewoodorganic.com/",
       "name": "Lakewood Organic Juices",
       "tagline": "Organic biodynamic juice and juice blends",
@@ -158,6 +653,30 @@
       ],
       "certification_standard_names": [
         "Demeter Biodynamic"
+      ]
+    },
+    {
+      "url": "https://www.hoptonictea.com/",
+      "name": "Hoptonic",
+      "tagline": "Craft brewed sparkling tea with hints of hops",
+      "brand_id": "9782fe29-317b-4748-935a-a01ebe6e3afe",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://catspringtea.com/",
+      "name": "CatSpring Yaupon",
+      "tagline": "Yaupon. It's Texan, for Tea.",
+      "brand_id": "9a3e3c56-389d-4b7d-9228-35b7d9764d6c",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
       ]
     },
     {
@@ -174,10 +693,83 @@
       ]
     },
     {
+      "url": "https://www.grgich.com/",
+      "name": "Grgich Hills Estate",
+      "tagline": "Regenerative organic Napa Valley wines",
+      "brand_id": "a0b260ff-ef34-46e0-a603-696442283f38",
+      "product_category_names": [
+        "Alcohol"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.saltspringcoffee.com/",
+      "name": "Salt Spring Coffee",
+      "tagline": "Organic, fair-trade, regenerative coffee",
+      "brand_id": "a5c8f551-82c6-4bc7-808c-1b950c85805a",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://wildorchard.com/",
+      "name": "Wild Orchard Tea Company",
+      "tagline": "Exquisite artisan teas",
+      "brand_id": "aa6d971c-0d82-4e87-9553-f596bb56ec6d",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.lotusfoods.com/",
+      "name": "Lotus Foods",
+      "tagline": "Rice products grown using sustainable farming",
+      "brand_id": "ad7c9d1b-5900-4f23-91b3-cd85adb73ad8",
+      "product_category_names": [
+        "Grains"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
       "url": "https://abovefood.com/",
       "name": "Above Food",
       "tagline": "The regenerative ingredient company",
       "brand_id": "af200d8f-b16b-4550-9ac5-2d5255b00f9b",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://eatsimpli.com/",
+      "name": "SIMPLi",
+      "tagline": "Global ingredients, farmers market standards",
+      "brand_id": "b803aff8-f4bd-4829-b402-0cb7ae3ff516",
+      "product_category_names": [
+        "Grains",
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.timelessfood.com/",
+      "name": "Timeless Seeds Inc.",
+      "tagline": "Changing the way farmers farm & eaters eat",
+      "brand_id": "bad0314c-1023-46c4-ac57-69dfa8d7aa6a",
       "product_category_names": [
         "Pantry"
       ],
@@ -198,6 +790,18 @@
       ]
     },
     {
+      "url": "https://harmlessharvest.com/",
+      "name": "Harmless Harvest",
+      "tagline": "Less harm. More good.",
+      "brand_id": "c45f8e77-b9cf-4ecc-b736-6cd2c7f4bf37",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
       "url": "https://wildideabuffalo.com/",
       "name": "Wild Idea",
       "tagline": "Humanely field harvested buffalo",
@@ -208,6 +812,42 @@
       "certification_standard_names": [
         "Animal Welfare Approved by AGW",
         "Certified Grassfed by AGW",
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://driftaway.coffee/",
+      "name": "Driftaway Coffee",
+      "tagline": "Coffee from smallholder farms",
+      "brand_id": "c914385f-e64c-48af-902a-0c99fcbb3d3b",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://bigtreefarms.com/",
+      "name": "Big Tree Farms Inc",
+      "tagline": "Foods from the nectar of the coconut blossom",
+      "brand_id": "c9d82c61-ed7a-47ab-ae2f-d29d6ef11013",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://newchapter.com/",
+      "name": "New Chapter",
+      "tagline": "Crafted to work in harmony with your body",
+      "brand_id": "cba91bbf-a840-41e7-b75d-797448071e46",
+      "product_category_names": [
+        "Vitamins & Supplements"
+      ],
+      "certification_standard_names": [
         "Regenerative Organic Certified"
       ]
     },
@@ -226,6 +866,54 @@
       ]
     },
     {
+      "url": "https://mrespresso.com/",
+      "name": "Mr. Espresso",
+      "tagline": "Single-origin oakwood roasted coffee",
+      "brand_id": "d0fac428-541b-49c9-88eb-634f2bdd038d",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.ampersand-coffee.com/",
+      "name": "Ampersand Coffee Roasters",
+      "tagline": "Empowerment through coffee",
+      "brand_id": "d2457768-8b5e-4913-b197-0b914e6c322e",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://tablascreek.com/",
+      "name": "Tablas Creek Vineyard",
+      "tagline": "A pioneer of California's Rhone movement",
+      "brand_id": "dbf32e28-6f8e-4735-af17-2970f29f88c3",
+      "product_category_names": [
+        "Alcohol"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://fosterfarmbotanicals.com/",
+      "name": "Foster Farm Botanicals",
+      "tagline": "Botanicals from an organic herb farm",
+      "brand_id": "deb2425c-d212-4c57-930a-1181b44703a4",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
       "url": "https://tomatobliss.com/",
       "name": "Tomato Bliss",
       "tagline": "Roasted heirloom tomato soups & sauces",
@@ -238,12 +926,108 @@
       ]
     },
     {
+      "url": "https://bartonspringsmill.com/",
+      "name": "Barton Springs Mill",
+      "tagline": "Bake with heirloom & modern grains",
+      "brand_id": "e4270294-c90f-4033-9004-3d381184fad4",
+      "product_category_names": [
+        "Grains"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.lundberg.com/",
+      "name": "Lundberg Family Farms",
+      "tagline": "Leaving the land better than we found it",
+      "brand_id": "e607e135-1a9e-49b0-9f43-e41b274bac95",
+      "product_category_names": [
+        "Grains"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.newbarnorganics.com/",
+      "name": "New Barn Organics",
+      "tagline": "Regenerative essentials",
+      "brand_id": "ef39dddb-5b59-434b-8386-2406cce6f376",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.equatorcoffees.com/",
+      "name": "Equator Coffees",
+      "tagline": "Drinking good coffee leads to good things",
+      "brand_id": "f0c28896-a878-4b92-bd33-36858f806cc0",
+      "product_category_names": [
+        "Beverage"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
       "url": "https://bigpicturefoods.com/",
       "name": "Big Picture Foods",
       "tagline": "Naturally fermented pantry staples",
       "brand_id": "f2c980bf-0d14-4645-862e-b9f08c3c1b39",
       "product_category_names": [
         "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://www.zahel.at/en/",
+      "name": "Bio Weingut Zahel Gmbh (Demeterhof Zahel)",
+      "tagline": "Wine from Vienna",
+      "brand_id": "f499b0fe-cdad-4345-8e08-b8551a578488",
+      "product_category_names": [
+        "Alcohol"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://vanillabeanproject.com/",
+      "name": "Vanilla Bean Project",
+      "tagline": "We make vanilla for people who care",
+      "brand_id": "f8081f17-9b7b-4a02-a277-1d69baf6d59b",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://domainebousquet.com/en/",
+      "name": "Domaine Bousquet",
+      "tagline": "Regenerative winery from Argentina",
+      "brand_id": "fc4d15f9-6dea-4f96-ae7f-3d2340537a74",
+      "product_category_names": [
+        "Alcohol"
+      ],
+      "certification_standard_names": [
+        "Regenerative Organic Certified"
+      ]
+    },
+    {
+      "url": "https://truegracehealth.com/",
+      "name": "True Grace",
+      "tagline": "Nutrient-dense supplements",
+      "brand_id": "fc6ff87f-8b26-407a-9aa6-82fbdc125a57",
+      "product_category_names": [
+        "Vitamins & Supplements"
       ],
       "certification_standard_names": [
         "Regenerative Organic Certified"
