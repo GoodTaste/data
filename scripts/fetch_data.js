@@ -4,10 +4,8 @@ const path = require('path');
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
-// Use GITHUB_WORKSPACE if available, otherwise fall back to the current directory
-const outputDir = process.env.GITHUB_WORKSPACE 
-  ? path.join(process.env.GITHUB_WORKSPACE, 'public-data')
-  : path.join(__dirname, '..', 'public-data');
+// Set output directory to the root of the repository using GITHUB_WORKSPACE
+const outputDir = path.join(process.env.GITHUB_WORKSPACE || '.', 'public-data');
 
 // Ensure the 'public-data' directory exists
 if (!fs.existsSync(outputDir)) {
@@ -33,6 +31,7 @@ async function fetchAndSaveData(functionName, fileName) {
 
   const filePath = path.join(outputDir, fileName);
   console.log(`Writing data to ${filePath}`);
+  
   if (hasDataChanged(filePath, data)) {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
     console.log(`Data successfully written to ${filePath}`);
@@ -52,7 +51,10 @@ async function run() {
 
   const dataChanged = updates.includes(true);
   console.log(`Data changed: ${dataChanged}`);
-  console.log(`::set-output name=DATA_CHANGED::${dataChanged}`);
+
+  // Use environment file instead of deprecated `set-output`
+  const outputFile = process.env.GITHUB_ENV;
+  fs.appendFileSync(outputFile, `DATA_CHANGED=${dataChanged}\n`);
 
   if (!dataChanged) {
     console.log("No data changes detected. Exiting without updates.");
