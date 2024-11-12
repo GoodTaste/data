@@ -2,25 +2,26 @@ const { createClient } = require('@supabase/supabase-js');
 const fs = require('fs');
 const path = require('path');
 
-// Initialize Supabase client
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
-// Directory for output files
 const outputDir = path.join(__dirname, '..', 'public-data');
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir);
 }
 
-// Function to check if file content has changed
 function hasDataChanged(filePath, newData) {
   if (!fs.existsSync(filePath)) {
-    return true; // File doesn't exist, so data has "changed"
+    console.log(`File ${filePath} does not exist. Data has changed.`);
+    return true; // If file doesn't exist, consider it changed
   }
+
   const existingData = fs.readFileSync(filePath, 'utf8');
+  console.log(`Existing data in ${filePath}:`, existingData);
+  console.log(`New data fetched:`, JSON.stringify(newData, null, 2));
+
   return existingData !== JSON.stringify(newData, null, 2);
 }
 
-// Function to call a Supabase RPC, save data if changed, and return if updated
 async function fetchAndSaveData(functionName, fileName) {
   const { data, error } = await supabase.rpc(functionName);
 
@@ -30,17 +31,18 @@ async function fetchAndSaveData(functionName, fileName) {
   }
 
   const filePath = path.join(outputDir, fileName);
+  console.log(`Fetched data for ${functionName}:`, data);
+
   if (hasDataChanged(filePath, data)) {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
     console.log(`Data successfully written to ${filePath}`);
-    return true; // Indicates data was updated
+    return true;
   } else {
-    console.log(`No changes in data for ${fileName}. Skipping update.`);
-    return false; // No update needed
+    console.log(`No changes detected for ${fileName}.`);
+    return false;
   }
 }
 
-// Main function to fetch and save data
 async function run() {
   const updates = await Promise.all([
     fetchAndSaveData('export_open_brands_json', 'brands.json'),
@@ -48,13 +50,11 @@ async function run() {
     fetchAndSaveData('export_open_certifications_json', 'certifications.json'),
   ]);
 
-  // Check if any updates were made
   const dataChanged = updates.includes(true);
-  
-  // Set output for GitHub Actions
+  console.log(`Data changed: ${dataChanged}`);
+
   console.log(`::set-output name=DATA_CHANGED::${dataChanged}`);
 
-  // Exit successfully if no updates were made
   if (!dataChanged) {
     console.log("No data changes detected. Exiting without updates.");
     process.exit(0);
