@@ -4,21 +4,22 @@ const path = require('path');
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
-const outputDir = path.join(__dirname, '..', 'public-data');
+// Use GITHUB_WORKSPACE if available, otherwise fall back to the current directory
+const outputDir = process.env.GITHUB_WORKSPACE 
+  ? path.join(process.env.GITHUB_WORKSPACE, 'public-data')
+  : path.join(__dirname, '..', 'public-data');
+
+// Ensure the 'public-data' directory exists
 if (!fs.existsSync(outputDir)) {
-  fs.mkdirSync(outputDir);
+  fs.mkdirSync(outputDir, { recursive: true });
 }
 
 function hasDataChanged(filePath, newData) {
   if (!fs.existsSync(filePath)) {
-    console.log(`File ${filePath} does not exist. Data has changed.`);
-    return true; // If file doesn't exist, consider it changed
+    return true;
   }
 
   const existingData = fs.readFileSync(filePath, 'utf8');
-  console.log(`Existing data in ${filePath}:`, existingData);
-  console.log(`New data fetched:`, JSON.stringify(newData, null, 2));
-
   return existingData !== JSON.stringify(newData, null, 2);
 }
 
@@ -31,8 +32,7 @@ async function fetchAndSaveData(functionName, fileName) {
   }
 
   const filePath = path.join(outputDir, fileName);
-  console.log(`Fetched data for ${functionName}:`, data);
-
+  console.log(`Writing data to ${filePath}`);
   if (hasDataChanged(filePath, data)) {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
     console.log(`Data successfully written to ${filePath}`);
@@ -52,7 +52,6 @@ async function run() {
 
   const dataChanged = updates.includes(true);
   console.log(`Data changed: ${dataChanged}`);
-
   console.log(`::set-output name=DATA_CHANGED::${dataChanged}`);
 
   if (!dataChanged) {
