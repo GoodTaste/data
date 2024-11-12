@@ -32,12 +32,12 @@ jobs:
           
       # Conditionally commit and push if data changed
       - name: Commit and push changes
-        if: steps.fetch_data.outputs.DATA_CHANGED == 'true'  # Only runs if DATA_CHANGED is true
+        if: env.DATA_CHANGED == 'true'
         env:
           ACTIONS_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add public-data/brands.json public-data/producers.json public-data/certifications.json
+          git add public-data/*.json
           git commit -m "Update data"
           git push origin main
