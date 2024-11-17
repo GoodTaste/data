@@ -90,7 +90,7 @@
       ],
       "certification_standard_id": "aca4c7d1-d52e-49d3-889b-793a9802b14b",
       "certification_manager_name": "Regenefied",
-      "certification_standard_name": "Regenified 6-3-4",
+      "certification_standard_name": "Regenified",
       "certification_manager_website_url": "https://regenified.com",
       "certification_standard_website_url": "https://regenified.com/about-us/#verification-standard-container"
     },
@@ -126,13 +126,13 @@
       "is_tiered": false,
       "certification_levels": [
         {
-          "id": "21d7b317-d0a5-44b1-a698-f72b0903223b",
-          "name": "Land to Market Verified"
+          "id": null,
+          "name": null
         }
       ],
       "certification_standard_id": "ff7eba44-3930-4fa3-b117-a8f2ac5757e3",
       "certification_manager_name": "Savory Institute",
-      "certification_standard_name": "Ecological Outcome Verification",
+      "certification_standard_name": "Land to Market",
       "certification_manager_website_url": "https://savory.global/eov",
       "certification_standard_website_url": "https://savory-institute.gitbook.io/eov-manual-public"
     }
