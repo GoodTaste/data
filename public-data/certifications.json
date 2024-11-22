@@ -65,6 +65,20 @@
       "certification_standard_website_url": "https://www.demeter-usa.org/certification"
     },
     {
+      "is_tiered": false,
+      "certification_levels": [
+        {
+          "id": null,
+          "name": null
+        }
+      ],
+      "certification_standard_id": "9f2324e7-7fb2-4b9f-b925-486fdc4266ff",
+      "certification_manager_name": "The Non-GMO Project",
+      "certification_standard_name": "Non-GMO Project Verified",
+      "certification_manager_website_url": "https://www.nongmoproject.org/",
+      "certification_standard_website_url": "https://www.nongmoproject.org/"
+    },
+    {
       "is_tiered": true,
       "certification_levels": [
         {
@@ -107,6 +121,20 @@
       "certification_standard_name": "Certified Regenerative by AGW",
       "certification_manager_website_url": "https://agreenerworld.org",
       "certification_standard_website_url": "https://agreenerworld.org/certifications/certified-regenerative"
+    },
+    {
+      "is_tiered": false,
+      "certification_levels": [
+        {
+          "id": null,
+          "name": null
+        }
+      ],
+      "certification_standard_id": "e9fdb77e-310a-4db4-9b15-6d083a7baf37",
+      "certification_manager_name": "The Detox Project",
+      "certification_standard_name": "Glyphosate Residue Free",
+      "certification_manager_website_url": "https://detoxproject.org",
+      "certification_standard_website_url": "https://detoxproject.org/certification/glyphosate-residue-free/"
     },
     {
       "is_tiered": false,
