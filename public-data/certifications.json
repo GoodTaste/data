@@ -33,15 +33,15 @@
       "certification_levels": [
         {
           "id": "4c2e2052-22b1-4d1e-ae0c-9ff4018559fb",
-          "name": "ROC Silver"
+          "name": "Regenerative Organic Certified Silver"
         },
         {
           "id": "caa41e79-0fae-4e05-a178-6126ab2730d7",
-          "name": "ROC Gold"
+          "name": "Regenerative Organic Certified Gold"
         },
         {
           "id": "f2323454-876c-44a0-8ade-e2ea06b544a6",
-          "name": "ROC Bronze"
+          "name": "Regenerative Organic Certified Bronze"
         }
       ],
       "certification_standard_id": "71dc5185-d4b6-40ec-9f5c-f3dc0ef9efcc",
