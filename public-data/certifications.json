@@ -58,6 +58,20 @@
           "name": null
         }
       ],
+      "certification_standard_id": "73106291-91a0-4411-8ee9-6cb141db6bde",
+      "certification_manager_name": "Ecocert",
+      "certification_standard_name": "Fair For Life",
+      "certification_manager_website_url": "https://fairforlife.org",
+      "certification_standard_website_url": "https://fairforlife.org/pmws/indexDOM.php?client_id=fairforlife&page_id=ffl&lang_iso639=en"
+    },
+    {
+      "is_tiered": false,
+      "certification_levels": [
+        {
+          "id": null,
+          "name": null
+        }
+      ],
       "certification_standard_id": "98b4766e-46f9-4ed9-a1f9-c69ffbccbf69",
       "certification_manager_name": "Demeter Biodynamic",
       "certification_standard_name": "Demeter Biodynamic",
