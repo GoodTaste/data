@@ -72,6 +72,20 @@
           "name": null
         }
       ],
+      "certification_standard_id": "8147a599-56ec-4d0b-bc4f-1ddcf5359005",
+      "certification_manager_name": "USDA",
+      "certification_standard_name": "USDA Organic",
+      "certification_manager_website_url": "https://www.usda.gov/",
+      "certification_standard_website_url": "https://www.ams.usda.gov/about-ams/programs-offices/national-organic-program"
+    },
+    {
+      "is_tiered": false,
+      "certification_levels": [
+        {
+          "id": null,
+          "name": null
+        }
+      ],
       "certification_standard_id": "98b4766e-46f9-4ed9-a1f9-c69ffbccbf69",
       "certification_manager_name": "Demeter Biodynamic",
       "certification_standard_name": "Demeter Biodynamic",
