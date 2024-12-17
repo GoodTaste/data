@@ -144,6 +144,20 @@
           "name": null
         }
       ],
+      "certification_standard_id": "cc0fed32-05b3-4247-8aca-aa9531bfb344",
+      "certification_manager_name": "BioChecked",
+      "certification_standard_name": "Non-Glyphosate Certified",
+      "certification_manager_website_url": "https://biochecked.com/",
+      "certification_standard_website_url": "https://biochecked.com/glyphosate-free-certified/"
+    },
+    {
+      "is_tiered": false,
+      "certification_levels": [
+        {
+          "id": null,
+          "name": null
+        }
+      ],
       "certification_standard_id": "dbaea337-d521-4186-b244-72b9d13c5132",
       "certification_manager_name": "A Greener World",
       "certification_standard_name": "Certified Regenerative by AGW",
