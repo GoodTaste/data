@@ -8,6 +8,20 @@
           "name": null
         }
       ],
+      "certification_standard_id": "085e096b-a96d-4c21-9796-77181f1c016e",
+      "certification_manager_name": "Fair Trade USA",
+      "certification_standard_name": "Fair Trade Certified",
+      "certification_manager_website_url": "https://www.fairtradecertified.org/",
+      "certification_standard_website_url": "https://www.fairtradecertified.org"
+    },
+    {
+      "is_tiered": false,
+      "certification_levels": [
+        {
+          "id": null,
+          "name": null
+        }
+      ],
       "certification_standard_id": "1687132d-4e2e-437b-9b7c-b0fc1cd46556",
       "certification_manager_name": "A Greener World",
       "certification_standard_name": "Animal Welfare Approved by AGW",
