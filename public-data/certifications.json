@@ -36,6 +36,20 @@
           "name": null
         }
       ],
+      "certification_standard_id": "1c269452-319c-4a66-9348-63319436d234",
+      "certification_manager_name": "Gluten Intolerance Group",
+      "certification_standard_name": "Certified Gluten Free",
+      "certification_manager_website_url": "https://gfco.org/",
+      "certification_standard_website_url": "https://gfco.org/certification/"
+    },
+    {
+      "is_tiered": false,
+      "certification_levels": [
+        {
+          "id": null,
+          "name": null
+        }
+      ],
       "certification_standard_id": "3afb785f-d79f-4e50-a652-578668cc155c",
       "certification_manager_name": "A Greener World",
       "certification_standard_name": "Certified Grassfed by AGW",
@@ -177,6 +191,20 @@
       "certification_standard_name": "Certified Regenerative by AGW",
       "certification_manager_website_url": "https://agreenerworld.org",
       "certification_standard_website_url": "https://agreenerworld.org/certifications/certified-regenerative"
+    },
+    {
+      "is_tiered": false,
+      "certification_levels": [
+        {
+          "id": null,
+          "name": null
+        }
+      ],
+      "certification_standard_id": "e60ea218-26fe-4edc-978a-8180e89a64b8",
+      "certification_manager_name": "The Vegan Awareness Foundation",
+      "certification_standard_name": "Certified Vegan",
+      "certification_manager_website_url": "https://vegan.org/",
+      "certification_standard_website_url": "https://vegan.org/certification/"
     },
     {
       "is_tiered": false,
