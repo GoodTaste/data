@@ -258,6 +258,18 @@
       ]
     },
     {
+      "url": "https://www.kettleandfire.com",
+      "name": "Kettle & Fire",
+      "tagline": "Better bone broth for better living.",
+      "brand_id": "33eb3d80-fe54-4bad-9632-76c034ca07ef",
+      "product_category_names": [
+        "Pantry"
+      ],
+      "certification_standard_names": [
+        null
+      ]
+    },
+    {
       "url": "https://www.gruffgrains.com/",
       "name": "Gruff",
       "tagline": "Nutrient-dense ancient grains",
