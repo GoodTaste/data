@@ -57,6 +57,20 @@
       "certification_standard_website_url": "https://agreenerworld.org/certifications/certified-grass-fed"
     },
     {
+      "is_tiered": false,
+      "certification_levels": [
+        {
+          "id": null,
+          "name": null
+        }
+      ],
+      "certification_standard_id": "4ade617e-d33d-44b9-9607-3b779f38ffcd",
+      "certification_manager_name": "National Audubon Society",
+      "certification_standard_name": "Audubon Certified Bird-Friendly",
+      "certification_manager_website_url": "https://www.audubon.org/",
+      "certification_standard_website_url": "https://www.audubon.org/our-work/prairies-and-forests/ranching"
+    },
+    {
       "is_tiered": true,
       "certification_levels": [
         {

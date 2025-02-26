@@ -1762,16 +1762,21 @@
       "producer_id": "8b908c5f-b885-41cd-aad0-f93b414e346d",
       "country_name": "United States",
       "producer_url": null,
-      "producer_name": "Cheyenne River Buffalo Ranch LLC",
+      "producer_name": "Cheyenne River Buffalo Ranch",
       "producer_category_names": [
         "Bison"
       ],
-      "producer_location_simple": "Scenic, South Dakota",
+      "producer_location_simple": "South Dakota",
       "certification_level_names": [
-        "Regenerative Organic Certified Silver"
+        "Regenerative Organic Certified Silver",
+        null
       ],
       "certification_standard_names": [
-        "Regenerative Organic Certified"
+        "Animal Welfare Approved by AGW",
+        "Audubon Certified Bird-Friendly",
+        "Certified Grassfed by AGW",
+        "Regenerative Organic Certified",
+        "USDA Organic"
       ]
     },
     {
